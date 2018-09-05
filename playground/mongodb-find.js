@@ -12,8 +12,7 @@ MongoClient.connect("mongodb://localhost:27017/TodoApp",  { useNewUrlParser: tru
     // })
     var db = client.db('Users')
     db.collection('Users').find({name: 'Andrew'}).toArray().then((docs) => {
-        console.log(JSON.stringify(docs, undefined, 2))
-    }, (err) => {
+     }, (err) => {
         console.log(err)
     }) 
 
