@@ -7,17 +7,17 @@ const {Todo} = require('../server/models/todo')
 // if (!ObjectID.isValid(id)) {
 //     console.log('id not valid')
 // }
-// // Todo.find({
-// //     _id: id
-// // }).then((todos) => {
-// //     console.log('Todos', todos)
-// // });
+//  Todo.find({
+//      _id: id
+//  }).then((todos) => {
+//      console.log('Todos', todos)
+//  });
 
-// // Todo.findOne({
-// //     _id: id
-// // }).then((todo) => {
-// //     console.log('Todos', todo)
-// // })
+//  Todo.findOne({
+//      _id: id
+//  }).then((todo) => {
+//      console.log('Todos', todo)
+//  })
 
 // Todo.findById(id).then((todo) => {
 //     if (!todo) {
